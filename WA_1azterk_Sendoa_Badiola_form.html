@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+  <meta charset="utf-8">
+  <meta name="Azterketa" content="Here you can find all information about the HTML basic framework">
+  <title>Azterketa</title>
+  <link rel="stylesheet" type="text/css" href="css/WA_1azter_Sendoa_Badiola_itxura.css">
+</head>
+
+<body>
+	<form action="http://10.22.23.71/~nerea/01_get_data.php" method="GET">
+		<fieldset>
+			<p>Datu pertsonalak</p>
+			
+			<label for="izena" class="itxura1">Izen eta abizena:</label>
+			<input type="text" name="izena" id="izena" placeholder="Idatzi zure izen eta abizena" required>
+				<br>
+				<br>
+			<label for="posta" class="itxura2">Posta elektronikoa:</label>
+			<input type="email" name="posta" id="posta">
+				<br>
+				<br>
+			<label for="adin" class="itxura1">Adina:</label>
+			<input type="number" name="adin" id="adin" min="18" max="60">
+				<br>
+				<br>
+			<label for="pass" class="itxura2">Pasahitza:</label>
+			<input type="password" name="pass" id="pass">
+				<br>
+				<br>
+			<input type="checkbox" name="infor" value="infor" id="infor" checked>
+			<label for="infor">Posta bidez informazioa jaso nahi dut</label>
+			
+			<hr>
+			<hr>
+			
+			<p>Karnet mota aukeratu
+				<select name="karneta">
+					<option value="1">NANa</option>
+					<option value="2">Gidabaimena</option>
+					<option value="3">Bizileku-baimena</option>
+				</select>
+			</p>
+			
+			<hr>
+			
+			<p>Zure ikasketa maila
+					<br>
+				<input type="radio" name="maila" value="dbh" id="dbh">
+                <label for="dbh">DBH</label>
+				
+				<input type="radio" name="maila" value="lh" id="lh">
+                <label for="lh">Lanbide Heziketa</label>
+				
+				<input type="radio" name="maila" value="um" id="um" checked>
+                <label for="um">Unibertsitate mailakoak</label>
+			</p>
+			
+			<p>Hitz egiten dituzun hizkuntzak
+					<br>
+				<input type="checkbox" name="eusk" value="eusk" id="eusk" checked>
+				<label for="eusk">Euskara</label>
+					<br>
+				<input type="checkbox" name="gazt" value="gazt" id="gazt">
+				<label for="gazt">Gaztelera</label>
+					<br>
+				<input type="checkbox" name="ing" value="ing" id="ing">
+				<label for="ing">Ingelesa</label>
+					<br>
+				<input type="checkbox" name="fran" value="fran" id="fran" checked>
+				<label for="fran">Frantzesa</label>
+			</p>
+					<br>
+					<br>
+			<input type="submit" value="informazioa bidali">
+			<input type="reset" value="imprimakia garbitu">
+					<br>
+			<p>
+				<a href="WA_1azterk_Sendoa_Badiola_taula.html">Egin klik hemen</a>
+			</p>
+		</fieldset>
+	</form>
+</body>
+
+
+</html>
