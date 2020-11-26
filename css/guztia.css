@@ -1,0 +1,30 @@
+ul li{
+	display:inline-block;
+	background-color:black;
+	color:white;
+	width:130px;
+	height:50px;
+	padding:10px;
+	margin-left:2px;
+	text-align:center;
+}
+
+a:hover{
+	color:skyblue;
+}
+
+a:active{
+	color:blue;
+}
+
+a:visited{
+	color:pink
+}
+
+ol li{
+	list-style-type:lower-roman;
+}
+
+.lerroa{
+	display:block
+}

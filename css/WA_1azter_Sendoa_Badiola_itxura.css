@@ -1,0 +1,24 @@
+.itxura1{
+	font-style:italic;
+	color:blue;
+	text-align:center;
+}
+
+.itxura2{
+	font-variant:small-caps;
+	color:red;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+body{
+    background:cornsilk;
+}
+
+p{
+	color:blueviolet;
+	font-family:arial;
+	font-style:oblique;
+}

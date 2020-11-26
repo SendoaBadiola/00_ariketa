@@ -1,0 +1,21 @@
+h1{
+	color:red;
+	font-size:100px;
+} 
+.etzanda{
+	font-style:italic;
+	color:blue;
+	font-family:lucida sans;
+}
+.lodia{
+	font-weight:bold;
+	color:green;
+}
+
+table, th, td{
+	border:1px solid black;
+}
+
+.center{
+	text-align:center;
+}
